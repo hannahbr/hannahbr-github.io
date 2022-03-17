@@ -7,7 +7,7 @@
  
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
 
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -19,8 +19,7 @@
     <!-- my css links -->
     <link rel="stylesheet" href="main.css">
 
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     
     <title>Hannah Braybrook | UX/UI Designer</title>
   </head>
@@ -43,7 +42,7 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5 23C17.8513 23 23 17.8513 23 11.5C23 5.14873 17.8513 0 11.5 0C5.14873 0 0 5.14873 0 11.5C0 17.8513 5.14873 23 11.5 23ZM9.30532 8.77863H6.32059V17.0305H9.30532V8.77863ZM6.3206 6.05724C6.3206 6.45305 6.46859 6.83263 6.732 7.11251C6.99541 7.39238 7.35267 7.54961 7.72518 7.54961C8.0977 7.54961 8.45496 7.39238 8.71837 7.11251C8.98178 6.83263 9.12976 6.45305 9.12976 6.05724C9.12976 5.66144 8.98178 5.28186 8.71837 5.00198C8.45496 4.72211 8.0977 4.56488 7.72518 4.56488C7.35267 4.56488 6.99541 4.72211 6.732 5.00198C6.46859 5.28186 6.3206 5.66144 6.3206 6.05724ZM17.7936 17.0305H16.0514C15.9744 17.0305 15.9005 16.9993 15.8461 16.9436C15.7916 16.888 15.761 16.8126 15.761 16.7339V12.2849C15.761 11.8916 15.6081 11.5144 15.3358 11.2363C15.0635 10.9582 14.6942 10.8019 14.3092 10.8019C13.9241 10.8019 13.5549 10.9582 13.2826 11.2363C13.0103 11.5144 12.8573 11.8916 12.8573 12.2849V16.7339C12.8573 16.8126 12.8268 16.888 12.7723 16.9436C12.7178 16.9993 12.644 17.0305 12.567 17.0305H10.8248C10.7477 17.0305 10.6739 16.9993 10.6194 16.9436C10.565 16.888 10.5344 16.8126 10.5344 16.7339V9.02232C10.5344 8.94366 10.565 8.86822 10.6194 8.8126C10.6739 8.75697 10.7477 8.72572 10.8248 8.72572H12.567C12.644 8.72572 12.7178 8.75697 12.7723 8.8126C12.8268 8.86822 12.8573 8.94366 12.8573 9.02232C12.8571 9.072 12.8718 9.12055 12.8995 9.16144C12.9271 9.20233 12.9663 9.2336 13.0118 9.25104C13.0574 9.26849 13.1071 9.27127 13.1542 9.25901C13.2013 9.24675 13.2436 9.22005 13.2755 9.18249C13.5138 8.93252 13.8007 8.73634 14.1178 8.60658C14.4349 8.47682 14.7751 8.41637 15.1164 8.42912C16.847 8.42912 18.084 9.51468 18.084 11.751V16.7339C18.084 16.8126 18.0534 16.888 17.999 16.9436C17.9445 16.9993 17.8706 17.0305 17.7936 17.0305Z" fill="#39D9EF"/>
                   </svg>
                   </button></a>
-                  <a href="Hannah_Braybrook_CV.pdf" target="_blank"><button type="button" class="btn btn-primary"><svg width="20" height="20" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg" alt="download icon">
+                  <a href="Hannah-Braybrook-CV.pdf" target="_blank"><button type="button" class="btn btn-primary"><svg width="20" height="20" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg" alt="download icon">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M23 11.5C23 17.8513 17.8513 23 11.5 23C5.14873 23 0 17.8513 0 11.5C0 5.14873 5.14873 0 11.5 0C17.8513 0 23 5.14873 23 11.5ZM16 16V18H7V16H16ZM9 11H6.5L11.5 15.5L16.5 11H14V5.5H9V11Z" fill="#39D9EF"/>
                   </svg>
                   CV</button></a>
@@ -57,7 +56,7 @@
 
         <div class="row pt-5 pb-5 align-items-center">
             <div class="col-lg-6 pt-5">
-              <h1 class="text-white m-0 h2">Case study</h1>
+              <h1 class="text-white m-0 h2" id="head">Case study</h1>
               <h2 class="text-white h1">Honey I joined a cult</h2>
               <p class="p-lead">UI/UX Design | video games</p>
             </div>
@@ -75,57 +74,143 @@
           <div class="flex flex-wrap">
 
             <div class="flex-content col-lg-3 sticky subtle">
-              <p><a href="">Overview</a></p>
-              <p><a href="">Context</a></p>
-              <p><a href="">Research</a></p>
-              <p><a href="">Breakdowns</a></p>
-              <p><a href="">Takeaways</a></p>
+              <p style="line-height: 3rem;"><a href="#overview">Overview</a><br>
+              <a href="#context">Context</a><br>
+              <a href="#research">Research</a><br>
+              <a href="#breakdown">Breakdown</a><br>
+              <a href="#takeaway">Takeaways</a></p>
             </div>
             
-            <div class="flex-content col-lg-6 pt-5 pb-5">
+            <div id="overview" class="flex-content col-lg-6 pt-5 pb-5">
               <div class="pb-5">
               <h2>Overview</h2>
-                <p><strong>Game name:</strong><br> Honey I joined a Cult</p>
-                <p><strong>Platform:</strong><br> Steam, early access release</p>
-                <p><strong>Duration of work:</strong><br> 3 months</p>
-                <p><strong>Tools used:</strong><br> Adobe xD, Miro, Adobe Illustrator, pen & paper</p>
-                <p><strong>My role:</strong><br> As the sole UI/UX Designer on this project, my goal was to focus on providing solutions to player issues within the game identified through user testing and heuristic analysis. Work involved improving usability as much as possible before release to early access, alongside setting up the ground work for future updates. </p>
-                <p><strong>The team structure:</strong><br> Team17 was asked to support Sole Survivor Games studio in getting their game ready for early access release on Steam, taking on a co-development role. Sole Survivor Games is a 2 person indie studio, and ‘Honey, I joined a Cult!’ is their first game.</p>
-                  <p>Internally we had the support of our in house user research team who were able to conduct some fantastic user testing sessions throughout the project. Alongside myself in the core team, we had a producer, 2 game designers, a junior UI artist and a small QA team on board. I joined the team a significant way through development.</p>
+                <h4>Game name:</h4><p> Honey I joined a Cult</p>
+                <h4>Platform:</h4><p> Steam, early access release</p>
+                <h4>Duration of work:</h4><p> 3 months</p>
+                <h4>Tools used:</h4><p> Adobe xD, Miro, Adobe Illustrator, pen & paper</p>
+                <h4>My role & goals:</h4><p>As the sole UI/UX Designer on this project, my goal was to focus on providing solutions to player issues within the game identified through user testing and heuristic analysis. </p><p>My work involved improving usability as much as possible before release to Steam early access, alongside setting up the ground work for future updates. </p>
+                <h4>The team structure:</h4><p> We took on a co-development role supporting Sole Survivor Games studio. Sole Survivor Games is a 2 person indie studio, and ‘Honey, I joined a Cult!’ is their first game.</p>
+                  <p>Internally we had the support of our in house user research team who were able to conduct some fantastic user testing sessions throughout the project. Alongside this we had a small team for direct co-development, including production, UI artists, game designers and QA.</p>
               </div>
 
-              <div class="pb-5">
+              <div id="context" class="pb-5">
                 <h2>Context</h2>
-                  <p><strong>Target demographic:</strong><br> The game is aimed the game at players who enjoy the management/ base building genre, who will typically play games like Prison Architect or Two Point Hospital. They may find more complex games in the genre like Crusader Kings or Faster than Light a bit too complicated or unforgiving and want a more casual experience.</p>
-                  <p><strong>My goals:</strong><br> Find and implement solutions to the various design issues identified through user testing. Increase the likelihood that on release the game will be positively receieved by players, limiting any delays to development.</p>
-                  <p><strong>Success metrics:</strong><br> Improved internal user testing scores, and a decrease in issues identified with the game UI. Upon release, a Steam user rating score which reflects this improved user testing score, along with a positive sentiment from Steam reviews.</p>
-                  <p><strong>Constraints: </strong><br>Development had been underway for a substantial period by the time I came onto this project, so scope for change was somewhat limited. It was essential to prioritise key user issues within the game and work closely with the development team to implement them as efficiently as possible.</p>
-                  <p>This was the dev teams first game, which was made in GameMaker. This posed some limitations and challenges around what could realistically be implemented.</p>
+                  <h4>Target demographic:</h4><p>In terms of game complexity we aimed the game at players who enjoy casual management/ base building genre, who will typically play games like Prison Architect, Two Point Hospital or Planet Zoo.</p> <p>They may find more complex games in the genre like Crusader Kings or Faster than Light a bit too complicated or unforgiving.</p>
+                  <h4>Success metrics:</h4>
+                    <ul>
+                      <li>Improved internal user testing scores, and a decrease in issues identified with the game UI.</li>
+                      <li>Upon release, a Steam user rating score which reflects this improved user testing score, along with a positive sentiment from Steam reviews.</li>
+                  </ul>
+                  <h4>Constraints: </h4><p>Development had been underway for a substantial period by the time I came onto this project, so scope for change was somewhat limited.</p>
+                  <p>It was essential to prioritise key user issues within the game and work closely with the development team to implement them as efficiently as possible.</p>
               </div>
 
-              <div class="pb-5">
+              
+              <div id="research" class="pb-5">
                 <h2>Research</h2>
-                <p><strong>Initial research: </strong><br>Along with being able to conduct my own heuristic analysis of the game as it currently stood, there were also insights from previous user testing sessions and reports. In tandem to this I carried out a short discovery period - familiarising myself with other games in and around the genre, whilst looking at player feedback online to see what went well or was disliked. </p>
+                <h4>Initial research: </h4><p>Along with being able to conduct my own heuristic analysis of the game as it currently stood, there were also insights from previous user testing sessions and reports. In tandem to this I carried out a short discovery period - familiarising myself with other games in and around the genre, whilst looking at player feedback online to see what went well or was disliked. </p>
                 <p>In order to find a focus on these issues, I worked with the wider team to prioritise the issues found based on severity and cost to implement.</p>
-                <p style="margin-bottom: 0;"><strong>Key findings/ issues:</strong></p>
+                <h4>Key findings/ issues:</h4>
                 <ul>
                   <li>There were several areas where the UI was unintuitive and confusing - in key areas of gameplay like building rooms and setting up missions this was particularly concerning.</li>
                   <li>Lack of consideration to player feedback, and a lack of events and gameplay goals, leading to confusion and boredom.</li>
                   <li>The UI was visually inconsistent and important considerations like localisation and accessibility had been missed.</li>
                 </ul>
-                <p><strong>Ongoing research:</strong><br> Throughout the project as prototypes for key features became ready to test, we were able to work with the user research team in conducting several further user testing sessions. Being able to observe these sessions was essential to enable us to validate our theories and progress confidently, with insights into where to ideate further when players would still be encountering unwanted friction.</p>
+
+                  <div>
+                    <a href="imgs/hijac-old.png" data-lightbox="photos">
+                      <img class="img-fluid" src="imgs/hijac-old.png">
+                    </a>
+                    <p class="image-description">Screenshot taken from the game soon after I joined the team, showing the room menus and an onboarding/ tutorial area.</p>
+                  </div>
+
+                  
+
+                <h4>Ongoing research:</h4><p> Throughout the project as prototypes for key features became ready to test, we were able to work with the user research team in conducting several further user testing sessions. Being able to observe these sessions was essential to enable us to validate our theories and progress confidently, with insights into where to ideate further when players would still be encountering unwanted friction.</p>
               </div>
+
+              <div id="breakdown" class="pb-5">
+                <h2>Breakdown</h2>
+                <p>Based on the research findings above, there are a variety of activities and processes I undertook over my time on the project to bring about improvements. Below are a few of the key steps taken:</p>
+                <ul>
+                  <li><strong>User & menu flow creation</strong><br>User and menu flows created to highlight inefficiencies and issues in the current game design. Created alternate flows to fix these issues.</li>
+                
+                  <div class="image-cs">
+                    <a href="imgs/hijac-user-flow.png" data-lightbox="photos">
+                      <img class="img-fluid" src="imgs/hijac-user-flow.png">
+                    </a>
+                    <p class="image-description">Screenshot from Miro showcasing one of the menu flows I created.</p>
+                  </div>
+                </ul>
+                <ul>
+                  <li><strong>UI functionality rehaul</strong><br>Redesigned and recontextualised the approach to particularly problematic areas found in user testing (such as the way notifications and updates were handled - all game updates were delivered through toast pop ups the player had to dismiss).</li>
+                  <div class="image-cs">
+                    <a href="imgs/hijac-notifs.png" data-lightbox="photos">
+                      <img class="img-fluid" src="imgs/hijac-notifs.png">
+                    </a>
+                    <p class="image-description">Planning screenshot from Miro redefining all notification types & contexts.</p>
+                  </div>
+                </ul>
+                <ul>
+                  <li><strong>Wireframing & prototyping</strong><br>Paper and low fidelity wireframing in xD. Creating prototypes in xD to visualise flows and where neccessary to showcase possibilities for transitions and animations.</li>
+                  <div class="image-cs">
+                    <a href="imgs/hijac-hud.png" data-lightbox="photos">
+                      <img class="img-fluid" src="imgs/hijac-hud.png">
+                    </a>
+                    <p class="image-description">Screenshot taken showing the evolution of the HUD from low to higher fidelity wireframing.</p>
+                  </div>
+
+                  <div class="image-cs">
+                    <a href="imgs/hijac-prototype.png" data-lightbox="photos">
+                      <img class="img-fluid" src="imgs/hijac-prototype.png">
+                    </a>
+                    <p class="image-description">Zoomed out screenshot showing a prototyped user flow for room creation.</p>
+                  </div>
+                </ul>
+                
+                <ul>
+                  <li><strong>Additions to gameplay loop</strong><br>Created designs for new game features & mechanics which would add longevity to the game.</li>
+                  <div class="image-cs">
+                    <a href="imgs/hijac-demands.png" data-lightbox="photos">
+                      <img class="img-fluid" src="imgs/hijac-demands.png">
+                    </a>
+                    <p class="image-description">Zoomed out screenshot showing a prototype & user flow for an undefined feature.</p>
+                  </div>
+                </ul>
+                <ul>
+                  <li><strong>Readability, visual clarity</strong><br>Ensured minimum text size & colour contrast for accessibility, and found alternate fonts which had localisation support. Reviewed high fidelity work by the UI Artist to ensure guidelines were met along with creating a cohesive and attractive style.</li>
+                  <div class="image-cs">
+                    <a href="imgs/hijac-fonts.png" data-lightbox="photos">
+                      <img class="img-fluid" src="imgs/hijac-fonts.png">
+                    </a>
+                    <p class="image-description">Screenshot taken from Miro when defining a design systems and collating font research.</p>
+                  </div>
+                </ul>
+
+
+              </div>
+
+              <div id="takeaway" class="pb-5">
+                <h2>Takeaways</h2>
+                <ul>
+                  <li>20% increase in our internal user testing scores as improvements were implemented.</li>
+                  <li>Honey I Joined a Cult released on Steam Early Access to a positive review ratio of 81% (very positive).</li>
+                  <li>On release the game managed to get to the top of the popular upcoming games section on Steam for a couple of days!</li>
+                </ul>
+                <p><a href="#head">Back to top</a></p>
+              </div> 
+
               
             </div>
             
             <div class="flex-content col-lg-3 sticky subtle" style="text-align: right;">
-              <p>
-                <a href="">Drinkaware<br>
+              <p style="line-height: 1.3rem;">
+                <a href="drinkaware.html">Drinkaware<br>
                   <span style="font-size:1rem">Case study</span>
                 </a>
               </p>
-              <p>
-                <a href="">Durham University<br>
+              <p style="line-height: 1.3rem;">
+                <a href="durham.html">Durham University<br>
                   <span style="font-size:1rem">Case study</span>
                 </a>
               </p>
@@ -136,7 +221,7 @@
       
 
 
-      <div class="content" style="background-color:rgb(15, 15, 15)">
+      <div class="content-nav" style="background-color:rgb(15, 15, 15)">
         <div class="container">
           <footer class="d-flex py-3" style="justify-content: right;">
       
@@ -147,17 +232,12 @@
           </footer>
         </div>
       </div>
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+  
     
   </body>
 </html>

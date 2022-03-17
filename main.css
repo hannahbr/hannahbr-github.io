@@ -1,6 +1,11 @@
 
 .content {
-    background-color: #000;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(28,28,28,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.content-nav {
+    background: rgb(0,0,0);
 }
 
 .nav {
@@ -59,22 +64,44 @@ h2, .h2 {
     font-size: 1.7rem;
 }
 
+h2::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -80px; 
+    height: 80px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
 h3, .h3 {
     font-size: 1.6rem;
 }
 
+
 h4, .h4 {
-    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 3rem;
 }
 
 p, .p, ul {
-    font-size: 1.1rem;
-    color:rgb(219, 219, 219);
-    margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+a {
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
 }
 
 .p-lead {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #fff;
 }
 
@@ -89,10 +116,13 @@ li {
 .btn {
     background-color: transparent;
     border-color: transparent;
+    font-family: 'Karla', sans-serif;
 }
 
 .btn:hover {
     background-color:transparent;
+    border-color:rgb(255, 208, 0);
+    fill:rgb(255, 208, 0);
 }
 
 .flex {
@@ -111,6 +141,8 @@ li {
     top: 6rem;
 }
 
+
+
 .subtle {
     opacity: 50%;
     transition: 0.3s;
@@ -118,4 +150,27 @@ li {
 
 .subtle:hover {
     opacity: 100%;
+}
+
+.content-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+    .sticky {
+        position:relative;
+        display: block;
+        top: 0;
+        text-align: left!important;
+        height: inherit;
+    }
+    .subtle {
+        opacity: 100%;
+    }
+}
+
+.image-description {
+    font-style:italic;
 }
