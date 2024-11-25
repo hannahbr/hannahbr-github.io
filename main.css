@@ -1,27 +1,25 @@
 
 .content {
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(28,28,28,1) 0%, rgba(0,0,0,1) 100%);
+    background: #F9E2C9;
 }
 
 .content-nav {
-    background: rgb(0,0,0);
+    background: #F9E2C9;
 }
 
 .nav {
-    background-color:rgba(0, 0, 0, 0.793);
+    background-color:#F9E2C9;
     position:fixed;
     right:0;
     left:0;
 }
 html{
-    background-color: black;
+    background-color: #F9E2C9;
 }
 
 body {
-    font-family: 'Lora', serif;
-    color: #d7d7d7;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    color: #2C2B2B;
+    background: linear-gradient(-45deg, #F85F06, #F78A2C);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 80vh;
@@ -42,8 +40,8 @@ body {
 
 
 a, .btn {
-    color: #39D9EF;
-    transition: 0.3s;
+    color: #03A3B9;
+    transition: 0.1s;
 }
 
 .n-link {
@@ -52,16 +50,22 @@ a, .btn {
 
 
 a:hover, .btn:hover {
-    color: rgb(255, 208, 0);
+    color: #F85F06;
 }
 
 
 h1, .h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: #8C1812;
+    line-height: 0.9;
 }
 
 h2, .h2 {
     font-size: 1.7rem;
+    font-weight:bold;
+    text-transform: lowercase;
 }
 
 h2::before { 
@@ -75,24 +79,46 @@ h2::before {
 
 h3, .h3 {
     font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: #8C1812;
 }
 
 
 h4, .h4 {
     font-size: 1.2rem;
-    font-weight: 500;
-    margin-top: 3rem;
+    font-weight: bold;
+    text-transform: lowercase;
+    margin-bottom: 0;
+}
+
+h5 {
+    color:#343434;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.navbar {
+    padding: 0.7rem 0;
+    filter: drop-shadow(1px -15px 16px #8C1812);
+}
+
+.h5Alt {
+    color:#5C5651;
 }
 
 p, .p, ul {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-    font-family: 'Karla', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: light;
 }
 
 a {
-    font-size: 1.3rem;
+    font-size: 1;
     text-decoration: none;
+    text-transform: lowercase;
+    font-weight: bold;
 }
 
 a:hover {
@@ -102,7 +128,6 @@ a:hover {
 
 .p-lead {
     font-size: 1.5rem;
-    color: #fff;
 }
 
 ul {
@@ -117,22 +142,22 @@ li {
     background-color: transparent;
     border-color: transparent;
     font-family: 'Karla', sans-serif;
+    padding: 0;
 }
 
 .btn:hover {
     background-color:transparent;
-    border-color:rgb(255, 208, 0);
-    fill:rgb(255, 208, 0);
+    border-color:transparent;
+    filter: drop-shadow(3px 1px 0px #8C1812);
 }
 
 .flex {
     display:flex;
 }
 
-.flex-center {
-    align-items: center;
-    height: 100%;
-    justify-content: center;
+.homeHeader {
+    padding: 150px 100px 80px 0px;
+    justify-content: left;
 }
 
 .sticky {
@@ -173,4 +198,9 @@ li {
 
 .image-description {
     font-style:italic;
+}
+
+#overview {
+    background-color: #FFEBD4;
+    padding: 40px;
 }
