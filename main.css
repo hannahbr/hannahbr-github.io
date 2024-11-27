@@ -18,11 +18,12 @@ html{
 }
 
 body {
-    color: #2C2B2B;
+    color: #424242;
     background: linear-gradient(-45deg, #F85F06, #F78A2C);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 80vh;
+    font-size: 1.2rem;
 }
 
 
@@ -109,9 +110,7 @@ h5 {
 }
 
 p, .p, ul {
-    font-size: 1.2rem;
     margin-bottom: 2rem;
-    font-weight: light;
 }
 
 a {
@@ -203,4 +202,8 @@ li {
 #overview {
     background-color: #FFEBD4;
     padding: 40px;
+}
+
+.video {
+    width:100%;
 }
