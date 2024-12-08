@@ -24,6 +24,11 @@ body {
 	animation: gradient 15s ease infinite;
 	height: 80vh;
     font-size: 1.2rem;
+    
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 
@@ -113,6 +118,8 @@ p, .p, ul {
     margin-bottom: 2rem;
 }
 
+
+
 a {
     font-size: 1;
     text-decoration: none;
@@ -197,12 +204,10 @@ li {
 
 .image-description {
     font-style:italic;
+    font-size: 0.8em;
 }
 
-#overview {
-    background-color: #FFEBD4;
-    padding: 40px;
-}
+
 
 .video {
     width:100%;
@@ -225,10 +230,21 @@ li {
             height: 100%;
             margin: 0.5rem 0;
             border-width: 0;
+
+            
+        }
+        button:hover {
+            border-width: 10px;
+            border-color:#F85F06;
         }
     }   
 }
 
 .content-nav {
     position:sticky;
+}
+
+.overview {
+    padding: 40px;
+    background-color:#FFEBD4;
 }
